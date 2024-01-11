@@ -18,6 +18,11 @@ module.exports = {
     },
     extend: {
       colors: {
+        // project color scheme
+        defaultPrimary: "#F6B17A",
+        defaultSecondary: "#7077A1",
+        defaultForeground: "#424769",
+        defaultDark: "#2D3250",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

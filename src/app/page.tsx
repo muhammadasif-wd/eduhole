@@ -5,7 +5,9 @@ export default function Home(): React.ReactNode {
   return (
     <main>
       <p>Home Page</p>
-      <Button>Click me</Button>
+      <Button className="bg-defaultDark dark:bg-defaultPrimary">
+        Click me
+      </Button>
       <ModeToggle />
     </main>
   )
